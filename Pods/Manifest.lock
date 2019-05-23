@@ -1,0 +1,24 @@
+PODS:
+  - CYLTabBarController (1.19.3)
+  - IGLDropDownMenu (1.6.2)
+  - JSONModel (1.8.0)
+
+DEPENDENCIES:
+  - CYLTabBarController (~> 1.19.3)
+  - IGLDropDownMenu
+  - JSONModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CYLTabBarController
+    - IGLDropDownMenu
+    - JSONModel
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 88b8d428f30fd12cf12073174ad8a4b51cd66b94
+  IGLDropDownMenu: ae118618ae858fa66ce7c2ac80ed9124a710b228
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+
+PODFILE CHECKSUM: d7f90e9d5bfcfde2875fc75703191d8dda8b1a0e
+
+COCOAPODS: 1.6.1

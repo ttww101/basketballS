@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0282862A446148BC16C3C5C91899CDDF /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 733F3FE10961AD349F12870259321FCD /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		04DA79A6CB083EACE25C100E12DCD350 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B1A80956F1C45C97834CCE1A44B8E1 /* JSONKeyMapper.m */; };
+		09AF0990E054F946CE4DB68DC934E454 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 91688F3375282DFEF71716C287025693 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		09D5844282749D228EAD04265CC00577 /* IGLDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B89B0D9D15010C61C6E5FE37652FF /* IGLDropDownMenu-dummy.m */; };
+		0E7DCEA5377E274C01E962DD8D702D8D /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827B30FE9EF1E27BB25802095286B2A /* IGLDropDownMenu.m */; };
+		0EBAE3CBCB44642A6AF6F2895F131143 /* UITabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEE014962E5733CB14D78C34D84F7E8 /* UITabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10B2764061D0638A4F4BE41276BDA5BB /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B037396486882E8B34D128BFEFE058A /* CYLBaseTableViewController.m */; };
+		148079E2A587424E1569CECA7495ECF7 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4CEA9477ADC6686FB2B9D18F36EAC0 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D70B5C5D13AA9AE0B48DBCCA6275170 /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF6B8CBE2FEE5C50E82A66690A2C3EE /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D8D3C6B43C352A7A3162E90A6393A31 /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AA89D82AB2EB6A3BF696655E6CF3F3CE /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2286741C6AFFEB964D6E1837063F7022 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE99DCC95744D6CE02054803FDC375E /* IGLDropDownItem.m */; };
+		25BDE87E6C9250A33FC05F8BE0E86AEF /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2632F380E17F82E2106FC2F95B96DF13 /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B844186EAB74F650B485EA3AC4AF2B2 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3610F43CD2B9C4F4630B8AEE1F0F8F95 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38635F38F6AEBE02EC08ED2E6020140F /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8629ABA6396B42AA1333DDF862A29 /* UIControl+CYLTabBarControllerExtention.m */; };
+		39F974CBB37C4A6163BCCDD283D6B017 /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D620FC412A6CA8B479A9B964CFE38463 /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4138872C4261A85EEFD25B0AC51D64E0 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D40985FDE44CF0BCE33CE19096223B /* JSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41571CFD145668112E2394A048A99127 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4720B6388BA1DBA09FECCB272B4F49B /* JSONModelError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47737FAE6A8C70B2688E06D10B6E4207 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = A666A7190B5B807275E75A3D792F4E66 /* UIView+CYLTabBarControllerExtention.m */; };
+		4D1AE7729C987EBC901F77137953F38F /* Pods-basketballSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C8D8828074C82B92D00B1127297E21 /* Pods-basketballSUITests-dummy.m */; };
+		4D6FE8672E658EC261D15C353BFC75F7 /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 139AE3C0FE8D254F634BB5543D3385C5 /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F3D04EA481D29E2147F56CF0E262CDC /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0EF5BA352315D451A650FB5EEA0C35 /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F85935A84159AF578475C51114B4C1F /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF056D0274F3EDECF3C292EC02427669 /* JSONModel-dummy.m */; };
+		504BE64F3356E8166BFFCD7B7D56E5B6 /* Pods-basketballS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53361D6A16954AF71C6EFD4A3FFB75 /* Pods-basketballS-dummy.m */; };
+		5241AF4526D315409AE8F890784C03B2 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA821EDC8E7E3FE6FC54A17C51D3D547 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		529FE4BE34A2515DE17B8049EAB1E499 /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F797E06B9E685DED0095D4BA95AC9F5 /* CAAnimation+CYLBadgeExtention.m */; };
+		54F1A632C167ADA6A3A80B34303F0567 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CFA86B02EC6EA04B84601AA0AEC19 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		556674ED4A626D42BE16A52C65CC706A /* Pods-basketballSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1FB10994C287D1420B573952630FE4 /* Pods-basketballSTests-dummy.m */; };
+		57BA2D08E8AE4B284582551A8085644F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7C3AB5A59636F25AF8983DD08188E /* JSONModel+networking.m */; };
+		57C63220DF380759936254144182175E /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1F7647270DF592BDE087A0616E26F3 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		598041A205184689998A9B2B67DA6551 /* UITabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9C33673B431F56D938CB76D214B49 /* UITabBar+CYLTabBarControllerExtention.m */; };
+		6223CA03EC83425341D0222EFE0DCFA1 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F6D49D5207CB1DCB025D467EB087 /* CYLTabBar.m */; };
+		77CA955FBCD0EB88F1ADBCB84795D781 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = C0571F8B963A2C631B374740225EC483 /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B0370D90C9BE1481204FF3B2190A5E3 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB081D1775D4DE10888DFDFC066C678 /* JSONValueTransformer.m */; };
+		85051748E1A033FABE1E4177710FE555 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9088C28302FE2BC0C10C7102E4E558 /* JSONAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8819A938EDD51003DE77384ED2E08D64 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2764E7CC66C0D5F3D98197CE1AC4DC /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88214528FB2ED4F3B620D9072F2B92A7 /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 376AA3BC733C618A1439CA0616A6A703 /* CYLTabBarController-dummy.m */; };
+		8956BA2254D1E9FCD37BCDE4EEE73112 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 51018DE88109C53E721433F01A7171A7 /* UIView+CYLBadgeExtention.m */; };
+		8AC61833870D8B0A905EB59F3B5145E7 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1725BEBB059AC3786FF87089B1BDA /* CYLPlusButton.m */; };
+		8CE890EFDFEC265DBBB70BDBE6EC9B52 /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D6A0B88F048B65022E1FEE0F9AAC40 /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D7F1BCFCF9A607B80DBCC038314D3A3 /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FC56F50727E08C7D2796625DD8F0AC /* CYLConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90E709B7416A76C5177A8A3B92DF409A /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = C54800843DCCE53B3C2BC9CCA0FE82AA /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98F3091FDA3D75DC0B47EF634E881ABC /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98A34B7218353992EC2B350761ECB8 /* JSONModelClassProperty.m */; };
+		A09C893F2036592FFED1B9DE201AB12C /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF07CC36BEA2D1B69C51FBE76D40F3 /* JSONModelError.m */; };
+		A25ADBAE1F5A26FDDEF86D716355349D /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0EEA0DA7FE60F6AE217257CF112A78 /* JSONAPI.m */; };
+		A322A330C81D383B32D8381CD1F6536B /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B498639363AC16E79AE6B731189090D /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A38ED98E0A330FB30910841FBE414D98 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C856C902DEF8E945E9030B4A72C47 /* CYLTabBarController.m */; };
+		A853FF97C970A36E1194FE374CF3546B /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D20612065084FBD9F049E8087F240 /* UIViewController+CYLNavigationControllerExtention.m */; };
+		BA7BF83E8466D26EC1B4BEDA76148508 /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA208E2448C1D80AE46834B8F3B35234 /* CYLBaseViewController.m */; };
+		C32843C27F05D20542268082F085DBCD /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 270365B6BE70DC1BF16384E317855FC8 /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C64F18A92E32F2198F080D4DB9430212 /* IGLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE3CC9C8FA09F35EDB71F0D1BDC8E91 /* IGLDropDownMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA029B44B62AD35A829F47F3E641F650 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1370E3F333B2F88EB935A70B620E8 /* JSONModel.m */; };
+		CD3DEC290CD03F405046F6687FD3D2FD /* IGLDropDownItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4901A42C1AECD35194EA77649FC1DD8E /* IGLDropDownItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9AEA3ACD240195CBD301D7BF2DA7CD6 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E6641259EC2E4A28892F72A270E984C4 /* JSONHTTPClient.m */; };
+		DF6A83F3C3DF0ED7A27E68DEE5627798 /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = B65A64315C462A959FF6D44D444CB988 /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7AB3C296AC7AACC183A8B4E8F2B7F0B /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3AC12259ADED8462787A38DCB21C6 /* UITabBarItem+CYLBadgeExtention.m */; };
+		EBC3A774CE92E38F14B157BE329C426A /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 25492611E129551241FC26870F787523 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEA02037EB7DF344F553FA5F2DA3DD9A /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0666CF10150571682FB7A6D7F2D4D19A /* CYLBaseNavigationController.m */; };
+		F4E8760B2CC0D2EBDCA1A249D1744725 /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18187EFFAF7963C44FCD2F917C93421D /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8073EF5FAA9113D4045B4B54E29C2DD /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF27876A38152415AF8ED38FEDA6517 /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC0CE1BA813FFF75815119462196AD79 /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 106175EC41E6ED0E9D6B90EECAF3DE1F /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFAEB431499C9D71E161349B95CEE244 /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 317144312DC541F05460299E91C4A658 /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182184B7CD59A5CC2ABA474749E12261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F7F3EBA78B61154E8490C32F153C9A;
+			remoteInfo = JSONModel;
+		};
+		5CE9583B59127D7961A0A8DDCCFCF199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FE428BBA57011C2A45855846FB6EA3;
+			remoteInfo = "Pods-basketballS";
+		};
+		D62D9443AC178C80DDBADEA48E35D0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C88965C7A6E59431915887DD441ECB6;
+			remoteInfo = CYLTabBarController;
+		};
+		E5701CA5686A2279CE2D66C09189EDD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB01DB0DCA5A2FB7C948DEB918F42643;
+			remoteInfo = IGLDropDownMenu;
+		};
+		E7A90611DA04E9545A78C039C11F0FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FE428BBA57011C2A45855846FB6EA3;
+			remoteInfo = "Pods-basketballS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021368D042A0254D11A27F3B56093091 /* IGLDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGLDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
+		0405F6D49D5207CB1DCB025D467EB087 /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		0490B76CAEB39B0CA14150C02B2D581D /* Pods-basketballSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0666CF10150571682FB7A6D7F2D4D19A /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
+		076D20612065084FBD9F049E8087F240 /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		08A3AC12259ADED8462787A38DCB21C6 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		0B037396486882E8B34D128BFEFE058A /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
+		0D03AADBDBC13AF6BED9C347AF322E64 /* libIGLDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIGLDropDownMenu.a; path = libIGLDropDownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB11CF0E531A196646C66F51F71B30C /* Pods-basketballSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballSTests.release.xcconfig"; sourceTree = "<group>"; };
+		106175EC41E6ED0E9D6B90EECAF3DE1F /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
+		139AE3C0FE8D254F634BB5543D3385C5 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		13D40985FDE44CF0BCE33CE19096223B /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		14B7A9974FC06E8CB19015A420A50133 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		18187EFFAF7963C44FCD2F917C93421D /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		1B498639363AC16E79AE6B731189090D /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		1EAF07CC36BEA2D1B69C51FBE76D40F3 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		25492611E129551241FC26870F787523 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		2632F380E17F82E2106FC2F95B96DF13 /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
+		26FC56F50727E08C7D2796625DD8F0AC /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
+		270365B6BE70DC1BF16384E317855FC8 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		27CD1706725B5DADF9BBC6E1695C085E /* Pods-basketballSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A9088C28302FE2BC0C10C7102E4E558 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		2C14DC9B24441AF5573FEDDC738DAAE6 /* libPods-basketballSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-basketballSUITests.a"; path = "libPods-basketballSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF6B8CBE2FEE5C50E82A66690A2C3EE /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		317144312DC541F05460299E91C4A658 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		3610F43CD2B9C4F4630B8AEE1F0F8F95 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		376AA3BC733C618A1439CA0616A6A703 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		3B1B89B0D9D15010C61C6E5FE37652FF /* IGLDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGLDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		3E0EF5BA352315D451A650FB5EEA0C35 /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		448972F45AAA3C08BF8031EA233C79C5 /* libPods-basketballS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-basketballS.a"; path = "libPods-basketballS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4901A42C1AECD35194EA77649FC1DD8E /* IGLDropDownItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownItem.h; path = IGLDropDownMenu/IGLDropDownItem.h; sourceTree = "<group>"; };
+		505E4DDAC35FD92F29951E6C94F7B08C /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		51018DE88109C53E721433F01A7171A7 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		52D6A0B88F048B65022E1FEE0F9AAC40 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		5827B30FE9EF1E27BB25802095286B2A /* IGLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownMenu.m; path = IGLDropDownMenu/IGLDropDownMenu.m; sourceTree = "<group>"; };
+		58FAAB99B31F99E79CFEDCFD94F3E462 /* Pods-basketballSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketballSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BF27876A38152415AF8ED38FEDA6517 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		5EE99DCC95744D6CE02054803FDC375E /* IGLDropDownItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownItem.m; path = IGLDropDownMenu/IGLDropDownItem.m; sourceTree = "<group>"; };
+		67C8629ABA6396B42AA1333DDF862A29 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		6BB7C3AB5A59636F25AF8983DD08188E /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		6CDD317DBAC8971D4D3A44351ECAF86A /* Pods-basketballSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketballSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DEE014962E5733CB14D78C34D84F7E8 /* UITabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		733F3FE10961AD349F12870259321FCD /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		819FA15D5E54E3E4364995573AC84C73 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		86A0447D11E30BBDF69D7A63674221FD /* Pods-basketballS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketballS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F797E06B9E685DED0095D4BA95AC9F5 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		91688F3375282DFEF71716C287025693 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		932CCE9E76D1B4719EA634EF4C625D8D /* IGLDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGLDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		9794385B1C1E704940201D42F468B458 /* Pods-basketballS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballS.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF618AF90CFAADFCAA30FAB2303BEC0 /* libCYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCYLTabBarController.a; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2CFA86B02EC6EA04B84601AA0AEC19 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		A666A7190B5B807275E75A3D792F4E66 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		A8E1370E3F333B2F88EB935A70B620E8 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		AA89D82AB2EB6A3BF696655E6CF3F3CE /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		AB6FB1627B632621D27AEFD7F217EB2F /* Pods-basketballS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballS.release.xcconfig"; sourceTree = "<group>"; };
+		AE4CEA9477ADC6686FB2B9D18F36EAC0 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
+		B464F62ABCD2291BFD37CB9FAAE050A1 /* libPods-basketballSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-basketballSTests.a"; path = "libPods-basketballSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A64315C462A959FF6D44D444CB988 /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
+		B9C1725BEBB059AC3786FF87089B1BDA /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
+		BC53361D6A16954AF71C6EFD4A3FFB75 /* Pods-basketballS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketballS-dummy.m"; sourceTree = "<group>"; };
+		BF98A34B7218353992EC2B350761ECB8 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		C0571F8B963A2C631B374740225EC483 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		C21962E619CC078BD24643DE72CF46E0 /* Pods-basketballS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketballS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2F9C33673B431F56D938CB76D214B49 /* UITabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		C3B1A80956F1C45C97834CCE1A44B8E1 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		C54800843DCCE53B3C2BC9CCA0FE82AA /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		CA2764E7CC66C0D5F3D98197CE1AC4DC /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		D3D76A2A0DAF85D62D9A6795C5AAE821 /* Pods-basketballSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-basketballSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D40C856C902DEF8E945E9030B4A72C47 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
+		D620FC412A6CA8B479A9B964CFE38463 /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		D704C35EF00B56B27FD81F0AFD0AD31B /* Pods-basketballSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-basketballSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDB081D1775D4DE10888DFDFC066C678 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		E4720B6388BA1DBA09FECCB272B4F49B /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		E50A564F59970E810076222283C9A151 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6641259EC2E4A28892F72A270E984C4 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		E8C8D8828074C82B92D00B1127297E21 /* Pods-basketballSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketballSUITests-dummy.m"; sourceTree = "<group>"; };
+		EA821EDC8E7E3FE6FC54A17C51D3D547 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		EB1F7647270DF592BDE087A0616E26F3 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		EB1FB10994C287D1420B573952630FE4 /* Pods-basketballSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-basketballSTests-dummy.m"; sourceTree = "<group>"; };
+		F4D7E5EC6FDA556706B5018AE84F01F0 /* Pods-basketballSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-basketballSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F69CEC899FF2588EDF8BDE1719545B09 /* CYLTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.xcconfig; sourceTree = "<group>"; };
+		FA208E2448C1D80AE46834B8F3B35234 /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
+		FD0EEA0DA7FE60F6AE217257CF112A78 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		FDE3CC9C8FA09F35EDB71F0D1BDC8E91 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownMenu.h; path = IGLDropDownMenu/IGLDropDownMenu.h; sourceTree = "<group>"; };
+		FF056D0274F3EDECF3C292EC02427669 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2148EF1E844CA5AEB1E52D7FEED52CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26848ACEECDF2DE5C46CC7DD25ED1563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AFDCDE4511F96727FF1F7F880B1B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A00A16A2FAC8877CDF8CA4B04BBE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5B860D22EE303A4F835CC1CE3B4524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF010529CB8983E591304377B2340FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094A782E79489E5C67A9EC75426CF657 /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4901A42C1AECD35194EA77649FC1DD8E /* IGLDropDownItem.h */,
+				5EE99DCC95744D6CE02054803FDC375E /* IGLDropDownItem.m */,
+				FDE3CC9C8FA09F35EDB71F0D1BDC8E91 /* IGLDropDownMenu.h */,
+				5827B30FE9EF1E27BB25802095286B2A /* IGLDropDownMenu.m */,
+				1BD5B818C61AD5980F5A43812FC5405C /* Support Files */,
+			);
+			name = IGLDropDownMenu;
+			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+		0E28D9C2DC15704FFC1649AA579C513A /* Pods-basketballSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58FAAB99B31F99E79CFEDCFD94F3E462 /* Pods-basketballSUITests-acknowledgements.markdown */,
+				6CDD317DBAC8971D4D3A44351ECAF86A /* Pods-basketballSUITests-acknowledgements.plist */,
+				E8C8D8828074C82B92D00B1127297E21 /* Pods-basketballSUITests-dummy.m */,
+				0490B76CAEB39B0CA14150C02B2D581D /* Pods-basketballSUITests.debug.xcconfig */,
+				27CD1706725B5DADF9BBC6E1695C085E /* Pods-basketballSUITests.release.xcconfig */,
+			);
+			name = "Pods-basketballSUITests";
+			path = "Target Support Files/Pods-basketballSUITests";
+			sourceTree = "<group>";
+		};
+		1BD5B818C61AD5980F5A43812FC5405C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				932CCE9E76D1B4719EA634EF4C625D8D /* IGLDropDownMenu.xcconfig */,
+				3B1B89B0D9D15010C61C6E5FE37652FF /* IGLDropDownMenu-dummy.m */,
+				021368D042A0254D11A27F3B56093091 /* IGLDropDownMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGLDropDownMenu";
+			sourceTree = "<group>";
+		};
+		1EFC28A8905D5B2EFCDE297D055C2430 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69CEC899FF2588EDF8BDE1719545B09 /* CYLTabBarController.xcconfig */,
+				376AA3BC733C618A1439CA0616A6A703 /* CYLTabBarController-dummy.m */,
+				14B7A9974FC06E8CB19015A420A50133 /* CYLTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYLTabBarController";
+			sourceTree = "<group>";
+		};
+		1F90B1091EE99FA94DB8D94BEFE6B88F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A9088C28302FE2BC0C10C7102E4E558 /* JSONAPI.h */,
+				FD0EEA0DA7FE60F6AE217257CF112A78 /* JSONAPI.m */,
+				EA821EDC8E7E3FE6FC54A17C51D3D547 /* JSONHTTPClient.h */,
+				E6641259EC2E4A28892F72A270E984C4 /* JSONHTTPClient.m */,
+				EB1F7647270DF592BDE087A0616E26F3 /* JSONKeyMapper.h */,
+				C3B1A80956F1C45C97834CCE1A44B8E1 /* JSONKeyMapper.m */,
+				13D40985FDE44CF0BCE33CE19096223B /* JSONModel.h */,
+				A8E1370E3F333B2F88EB935A70B620E8 /* JSONModel.m */,
+				3610F43CD2B9C4F4630B8AEE1F0F8F95 /* JSONModel+networking.h */,
+				6BB7C3AB5A59636F25AF8983DD08188E /* JSONModel+networking.m */,
+				1B498639363AC16E79AE6B731189090D /* JSONModelClassProperty.h */,
+				BF98A34B7218353992EC2B350761ECB8 /* JSONModelClassProperty.m */,
+				E4720B6388BA1DBA09FECCB272B4F49B /* JSONModelError.h */,
+				1EAF07CC36BEA2D1B69C51FBE76D40F3 /* JSONModelError.m */,
+				25492611E129551241FC26870F787523 /* JSONModelLib.h */,
+				C54800843DCCE53B3C2BC9CCA0FE82AA /* JSONValueTransformer.h */,
+				DDB081D1775D4DE10888DFDFC066C678 /* JSONValueTransformer.m */,
+				38307356F3853A435717519E37364855 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		38307356F3853A435717519E37364855 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				505E4DDAC35FD92F29951E6C94F7B08C /* JSONModel.xcconfig */,
+				FF056D0274F3EDECF3C292EC02427669 /* JSONModel-dummy.m */,
+				819FA15D5E54E3E4364995573AC84C73 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		68CFC73368679E9E27917085888466D9 /* Pods-basketballSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D76A2A0DAF85D62D9A6795C5AAE821 /* Pods-basketballSTests-acknowledgements.markdown */,
+				D704C35EF00B56B27FD81F0AFD0AD31B /* Pods-basketballSTests-acknowledgements.plist */,
+				EB1FB10994C287D1420B573952630FE4 /* Pods-basketballSTests-dummy.m */,
+				F4D7E5EC6FDA556706B5018AE84F01F0 /* Pods-basketballSTests.debug.xcconfig */,
+				0EB11CF0E531A196646C66F51F71B30C /* Pods-basketballSTests.release.xcconfig */,
+			);
+			name = "Pods-basketballSTests";
+			path = "Target Support Files/Pods-basketballSTests";
+			sourceTree = "<group>";
+		};
+		71E7BC088EE01649B2CC5D2FAE8372A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F230642FE158B6BE24E7F8396CC14C /* CYLTabBarController */,
+				094A782E79489E5C67A9EC75426CF657 /* IGLDropDownMenu */,
+				1F90B1091EE99FA94DB8D94BEFE6B88F /* JSONModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		978076C9DA16B9894A74ABB66D253976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF618AF90CFAADFCAA30FAB2303BEC0 /* libCYLTabBarController.a */,
+				0D03AADBDBC13AF6BED9C347AF322E64 /* libIGLDropDownMenu.a */,
+				E50A564F59970E810076222283C9A151 /* libJSONModel.a */,
+				448972F45AAA3C08BF8031EA233C79C5 /* libPods-basketballS.a */,
+				B464F62ABCD2291BFD37CB9FAAE050A1 /* libPods-basketballSTests.a */,
+				2C14DC9B24441AF5573FEDDC738DAAE6 /* libPods-basketballSUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A819452C5D3AA7791F85B76607FF78B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1221919E32850ED5C723E931F7224 /* Pods-basketballS */,
+				68CFC73368679E9E27917085888466D9 /* Pods-basketballSTests */,
+				0E28D9C2DC15704FFC1649AA579C513A /* Pods-basketballSUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				71E7BC088EE01649B2CC5D2FAE8372A3 /* Pods */,
+				978076C9DA16B9894A74ABB66D253976 /* Products */,
+				A819452C5D3AA7791F85B76607FF78B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8F230642FE158B6BE24E7F8396CC14C /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6B8CBE2FEE5C50E82A66690A2C3EE /* CAAnimation+CYLBadgeExtention.h */,
+				8F797E06B9E685DED0095D4BA95AC9F5 /* CAAnimation+CYLBadgeExtention.m */,
+				AA89D82AB2EB6A3BF696655E6CF3F3CE /* CYLBadgeProtocol.h */,
+				18187EFFAF7963C44FCD2F917C93421D /* CYLBaseNavigationController.h */,
+				0666CF10150571682FB7A6D7F2D4D19A /* CYLBaseNavigationController.m */,
+				139AE3C0FE8D254F634BB5543D3385C5 /* CYLBaseTableViewController.h */,
+				0B037396486882E8B34D128BFEFE058A /* CYLBaseTableViewController.m */,
+				106175EC41E6ED0E9D6B90EECAF3DE1F /* CYLBaseViewController.h */,
+				FA208E2448C1D80AE46834B8F3B35234 /* CYLBaseViewController.m */,
+				26FC56F50727E08C7D2796625DD8F0AC /* CYLConstants.h */,
+				D620FC412A6CA8B479A9B964CFE38463 /* CYLPlusButton.h */,
+				B9C1725BEBB059AC3786FF87089B1BDA /* CYLPlusButton.m */,
+				AE4CEA9477ADC6686FB2B9D18F36EAC0 /* CYLTabBar.h */,
+				0405F6D49D5207CB1DCB025D467EB087 /* CYLTabBar.m */,
+				2632F380E17F82E2106FC2F95B96DF13 /* CYLTabBarController.h */,
+				D40C856C902DEF8E945E9030B4A72C47 /* CYLTabBarController.m */,
+				CA2764E7CC66C0D5F3D98197CE1AC4DC /* UIBarButtonItem+CYLBadgeExtention.h */,
+				733F3FE10961AD349F12870259321FCD /* UIBarButtonItem+CYLBadgeExtention.m */,
+				270365B6BE70DC1BF16384E317855FC8 /* UIControl+CYLTabBarControllerExtention.h */,
+				67C8629ABA6396B42AA1333DDF862A29 /* UIControl+CYLTabBarControllerExtention.m */,
+				6DEE014962E5733CB14D78C34D84F7E8 /* UITabBar+CYLTabBarControllerExtention.h */,
+				C2F9C33673B431F56D938CB76D214B49 /* UITabBar+CYLTabBarControllerExtention.m */,
+				5BF27876A38152415AF8ED38FEDA6517 /* UITabBarItem+CYLBadgeExtention.h */,
+				08A3AC12259ADED8462787A38DCB21C6 /* UITabBarItem+CYLBadgeExtention.m */,
+				C0571F8B963A2C631B374740225EC483 /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				9F2CFA86B02EC6EA04B84601AA0AEC19 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				3E0EF5BA352315D451A650FB5EEA0C35 /* UIView+CYLBadgeExtention.h */,
+				51018DE88109C53E721433F01A7171A7 /* UIView+CYLBadgeExtention.m */,
+				52D6A0B88F048B65022E1FEE0F9AAC40 /* UIView+CYLTabBarControllerExtention.h */,
+				A666A7190B5B807275E75A3D792F4E66 /* UIView+CYLTabBarControllerExtention.m */,
+				B65A64315C462A959FF6D44D444CB988 /* UIViewController+CYLNavigationControllerExtention.h */,
+				076D20612065084FBD9F049E8087F240 /* UIViewController+CYLNavigationControllerExtention.m */,
+				317144312DC541F05460299E91C4A658 /* UIViewController+CYLTabBarControllerExtention.h */,
+				91688F3375282DFEF71716C287025693 /* UIViewController+CYLTabBarControllerExtention.m */,
+				1EFC28A8905D5B2EFCDE297D055C2430 /* Support Files */,
+			);
+			name = CYLTabBarController;
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		FBE1221919E32850ED5C723E931F7224 /* Pods-basketballS */ = {
+			isa = PBXGroup;
+			children = (
+				86A0447D11E30BBDF69D7A63674221FD /* Pods-basketballS-acknowledgements.markdown */,
+				C21962E619CC078BD24643DE72CF46E0 /* Pods-basketballS-acknowledgements.plist */,
+				BC53361D6A16954AF71C6EFD4A3FFB75 /* Pods-basketballS-dummy.m */,
+				9794385B1C1E704940201D42F468B458 /* Pods-basketballS.debug.xcconfig */,
+				AB6FB1627B632621D27AEFD7F217EB2F /* Pods-basketballS.release.xcconfig */,
+			);
+			name = "Pods-basketballS";
+			path = "Target Support Files/Pods-basketballS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0444D0712244FD7124F0A6ABAC556BBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0E0659DE42C9151C3CD2AB4F0DEDED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39611217549992ECB20751CACDB807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE42DFD07954ACD9E4CAEFEE135C2BFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3DEC290CD03F405046F6687FD3D2FD /* IGLDropDownItem.h in Headers */,
+				C64F18A92E32F2198F080D4DB9430212 /* IGLDropDownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D8DB81169BA5D2467C8FA3AAED8837 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D70B5C5D13AA9AE0B48DBCCA6275170 /* CAAnimation+CYLBadgeExtention.h in Headers */,
+				1D8D3C6B43C352A7A3162E90A6393A31 /* CYLBadgeProtocol.h in Headers */,
+				F4E8760B2CC0D2EBDCA1A249D1744725 /* CYLBaseNavigationController.h in Headers */,
+				4D6FE8672E658EC261D15C353BFC75F7 /* CYLBaseTableViewController.h in Headers */,
+				FC0CE1BA813FFF75815119462196AD79 /* CYLBaseViewController.h in Headers */,
+				8D7F1BCFCF9A607B80DBCC038314D3A3 /* CYLConstants.h in Headers */,
+				39F974CBB37C4A6163BCCDD283D6B017 /* CYLPlusButton.h in Headers */,
+				148079E2A587424E1569CECA7495ECF7 /* CYLTabBar.h in Headers */,
+				25BDE87E6C9250A33FC05F8BE0E86AEF /* CYLTabBarController.h in Headers */,
+				8819A938EDD51003DE77384ED2E08D64 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */,
+				C32843C27F05D20542268082F085DBCD /* UIControl+CYLTabBarControllerExtention.h in Headers */,
+				0EBAE3CBCB44642A6AF6F2895F131143 /* UITabBar+CYLTabBarControllerExtention.h in Headers */,
+				F8073EF5FAA9113D4045B4B54E29C2DD /* UITabBarItem+CYLBadgeExtention.h in Headers */,
+				77CA955FBCD0EB88F1ADBCB84795D781 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */,
+				4F3D04EA481D29E2147F56CF0E262CDC /* UIView+CYLBadgeExtention.h in Headers */,
+				8CE890EFDFEC265DBBB70BDBE6EC9B52 /* UIView+CYLTabBarControllerExtention.h in Headers */,
+				DF6A83F3C3DF0ED7A27E68DEE5627798 /* UIViewController+CYLNavigationControllerExtention.h in Headers */,
+				FFAEB431499C9D71E161349B95CEE244 /* UIViewController+CYLTabBarControllerExtention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B4CBE58B0902FB467B5B02A8BB9585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85051748E1A033FABE1E4177710FE555 /* JSONAPI.h in Headers */,
+				5241AF4526D315409AE8F890784C03B2 /* JSONHTTPClient.h in Headers */,
+				57C63220DF380759936254144182175E /* JSONKeyMapper.h in Headers */,
+				2B844186EAB74F650B485EA3AC4AF2B2 /* JSONModel+networking.h in Headers */,
+				4138872C4261A85EEFD25B0AC51D64E0 /* JSONModel.h in Headers */,
+				A322A330C81D383B32D8381CD1F6536B /* JSONModelClassProperty.h in Headers */,
+				41571CFD145668112E2394A048A99127 /* JSONModelError.h in Headers */,
+				EBC3A774CE92E38F14B157BE329C426A /* JSONModelLib.h in Headers */,
+				90E709B7416A76C5177A8A3B92DF409A /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03F7F3EBA78B61154E8490C32F153C9A /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A26CC39A4BD8E6AFADC95F87BC0170 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				F3B4CBE58B0902FB467B5B02A8BB9585 /* Headers */,
+				C33A47AA8BCBAF68E2E8050AD5534EDF /* Sources */,
+				6D5B860D22EE303A4F835CC1CE3B4524 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = E50A564F59970E810076222283C9A151 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A4CE531CFB652C1DCDA927EBB140AF6 /* Pods-basketballSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD60739BAD4E2269746443C314E24314 /* Build configuration list for PBXNativeTarget "Pods-basketballSUITests" */;
+			buildPhases = (
+				4A0E0659DE42C9151C3CD2AB4F0DEDED /* Headers */,
+				B043EAAEC8F81E2F41617A14300BAD82 /* Sources */,
+				26848ACEECDF2DE5C46CC7DD25ED1563 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5386450F757E9529C9A45B876C76D37 /* PBXTargetDependency */,
+			);
+			name = "Pods-basketballSUITests";
+			productName = "Pods-basketballSUITests";
+			productReference = 2C14DC9B24441AF5573FEDDC738DAAE6 /* libPods-basketballSUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C88965C7A6E59431915887DD441ECB6 /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C15F4700EB26169E79EB6DE6400234 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				E9D8DB81169BA5D2467C8FA3AAED8837 /* Headers */,
+				1BB1B798A652F747A12DC85A092E8CA1 /* Sources */,
+				39AFDCDE4511F96727FF1F7F880B1B5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 9AF618AF90CFAADFCAA30FAB2303BEC0 /* libCYLTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9B3ECFA62B36A1A7F10ABD01EBAABD8C /* Pods-basketballSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE7B8272832FB363BFFBAEC7FEF2F9 /* Build configuration list for PBXNativeTarget "Pods-basketballSTests" */;
+			buildPhases = (
+				8B39611217549992ECB20751CACDB807 /* Headers */,
+				74AC6BCAE9946BD482C4509D266EA41B /* Sources */,
+				BF010529CB8983E591304377B2340FF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CA7B123A184641758B44BE5076722A /* PBXTargetDependency */,
+			);
+			name = "Pods-basketballSTests";
+			productName = "Pods-basketballSTests";
+			productReference = B464F62ABCD2291BFD37CB9FAAE050A1 /* libPods-basketballSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B9FE428BBA57011C2A45855846FB6EA3 /* Pods-basketballS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFED780BF337C6F6C8860E43C5BABBA /* Build configuration list for PBXNativeTarget "Pods-basketballS" */;
+			buildPhases = (
+				0444D0712244FD7124F0A6ABAC556BBA /* Headers */,
+				2B44A8A0A91CE308CF98F6CCF52F7B81 /* Sources */,
+				64A00A16A2FAC8877CDF8CA4B04BBE4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668A005B49DE535B9FB578847BAB7815 /* PBXTargetDependency */,
+				B1C99D078084FCC295A8D315792E3069 /* PBXTargetDependency */,
+				70AF63E5FA66DD501836E68D95C15815 /* PBXTargetDependency */,
+			);
+			name = "Pods-basketballS";
+			productName = "Pods-basketballS";
+			productReference = 448972F45AAA3C08BF8031EA233C79C5 /* libPods-basketballS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB01DB0DCA5A2FB7C948DEB918F42643 /* IGLDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6F32E23FEA7CE3330CF2533BFA5BE0 /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */;
+			buildPhases = (
+				AE42DFD07954ACD9E4CAEFEE135C2BFB /* Headers */,
+				027A6AF61D190AFD8E8CCCBC389887C6 /* Sources */,
+				2148EF1E844CA5AEB1E52D7FEED52CAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGLDropDownMenu;
+			productName = IGLDropDownMenu;
+			productReference = 0D03AADBDBC13AF6BED9C347AF322E64 /* libIGLDropDownMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 978076C9DA16B9894A74ABB66D253976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C88965C7A6E59431915887DD441ECB6 /* CYLTabBarController */,
+				BB01DB0DCA5A2FB7C948DEB918F42643 /* IGLDropDownMenu */,
+				03F7F3EBA78B61154E8490C32F153C9A /* JSONModel */,
+				B9FE428BBA57011C2A45855846FB6EA3 /* Pods-basketballS */,
+				9B3ECFA62B36A1A7F10ABD01EBAABD8C /* Pods-basketballSTests */,
+				3A4CE531CFB652C1DCDA927EBB140AF6 /* Pods-basketballSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		027A6AF61D190AFD8E8CCCBC389887C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2286741C6AFFEB964D6E1837063F7022 /* IGLDropDownItem.m in Sources */,
+				09D5844282749D228EAD04265CC00577 /* IGLDropDownMenu-dummy.m in Sources */,
+				0E7DCEA5377E274C01E962DD8D702D8D /* IGLDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB1B798A652F747A12DC85A092E8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529FE4BE34A2515DE17B8049EAB1E499 /* CAAnimation+CYLBadgeExtention.m in Sources */,
+				EEA02037EB7DF344F553FA5F2DA3DD9A /* CYLBaseNavigationController.m in Sources */,
+				10B2764061D0638A4F4BE41276BDA5BB /* CYLBaseTableViewController.m in Sources */,
+				BA7BF83E8466D26EC1B4BEDA76148508 /* CYLBaseViewController.m in Sources */,
+				8AC61833870D8B0A905EB59F3B5145E7 /* CYLPlusButton.m in Sources */,
+				6223CA03EC83425341D0222EFE0DCFA1 /* CYLTabBar.m in Sources */,
+				88214528FB2ED4F3B620D9072F2B92A7 /* CYLTabBarController-dummy.m in Sources */,
+				A38ED98E0A330FB30910841FBE414D98 /* CYLTabBarController.m in Sources */,
+				0282862A446148BC16C3C5C91899CDDF /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				38635F38F6AEBE02EC08ED2E6020140F /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				598041A205184689998A9B2B67DA6551 /* UITabBar+CYLTabBarControllerExtention.m in Sources */,
+				E7AB3C296AC7AACC183A8B4E8F2B7F0B /* UITabBarItem+CYLBadgeExtention.m in Sources */,
+				54F1A632C167ADA6A3A80B34303F0567 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				8956BA2254D1E9FCD37BCDE4EEE73112 /* UIView+CYLBadgeExtention.m in Sources */,
+				47737FAE6A8C70B2688E06D10B6E4207 /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				A853FF97C970A36E1194FE374CF3546B /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
+				09AF0990E054F946CE4DB68DC934E454 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44A8A0A91CE308CF98F6CCF52F7B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BE64F3356E8166BFFCD7B7D56E5B6 /* Pods-basketballS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AC6BCAE9946BD482C4509D266EA41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556674ED4A626D42BE16A52C65CC706A /* Pods-basketballSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B043EAAEC8F81E2F41617A14300BAD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1AE7729C987EBC901F77137953F38F /* Pods-basketballSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A47AA8BCBAF68E2E8050AD5534EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25ADBAE1F5A26FDDEF86D716355349D /* JSONAPI.m in Sources */,
+				D9AEA3ACD240195CBD301D7BF2DA7CD6 /* JSONHTTPClient.m in Sources */,
+				04DA79A6CB083EACE25C100E12DCD350 /* JSONKeyMapper.m in Sources */,
+				57BA2D08E8AE4B284582551A8085644F /* JSONModel+networking.m in Sources */,
+				4F85935A84159AF578475C51114B4C1F /* JSONModel-dummy.m in Sources */,
+				CA029B44B62AD35A829F47F3E641F650 /* JSONModel.m in Sources */,
+				98F3091FDA3D75DC0B47EF634E881ABC /* JSONModelClassProperty.m in Sources */,
+				A09C893F2036592FFED1B9DE201AB12C /* JSONModelError.m in Sources */,
+				7B0370D90C9BE1481204FF3B2190A5E3 /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668A005B49DE535B9FB578847BAB7815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLTabBarController;
+			target = 5C88965C7A6E59431915887DD441ECB6 /* CYLTabBarController */;
+			targetProxy = D62D9443AC178C80DDBADEA48E35D0AE /* PBXContainerItemProxy */;
+		};
+		70AF63E5FA66DD501836E68D95C15815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 03F7F3EBA78B61154E8490C32F153C9A /* JSONModel */;
+			targetProxy = 182184B7CD59A5CC2ABA474749E12261 /* PBXContainerItemProxy */;
+		};
+		B1C99D078084FCC295A8D315792E3069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGLDropDownMenu;
+			target = BB01DB0DCA5A2FB7C948DEB918F42643 /* IGLDropDownMenu */;
+			targetProxy = E5701CA5686A2279CE2D66C09189EDD7 /* PBXContainerItemProxy */;
+		};
+		C9CA7B123A184641758B44BE5076722A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-basketballS";
+			target = B9FE428BBA57011C2A45855846FB6EA3 /* Pods-basketballS */;
+			targetProxy = E7A90611DA04E9545A78C039C11F0FB8 /* PBXContainerItemProxy */;
+		};
+		D5386450F757E9529C9A45B876C76D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-basketballS";
+			target = B9FE428BBA57011C2A45855846FB6EA3 /* Pods-basketballS */;
+			targetProxy = 5CE9583B59127D7961A0A8DDCCFCF199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A2049FC5E2A80E95054B8B8D00A886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932CCE9E76D1B4719EA634EF4C625D8D /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IGLDropDownMenu;
+				PRODUCT_NAME = IGLDropDownMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D822522FE5AE89C4AD9F350385A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505E4DDAC35FD92F29951E6C94F7B08C /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA04EC18702E9803C4D3C2160773FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69CEC899FF2588EDF8BDE1719545B09 /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41FF0A2EF645BE73EDD3DB44B310048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CD1706725B5DADF9BBC6E1695C085E /* Pods-basketballSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C9611BCCA67039789D17C9BA948FD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D7E5EC6FDA556706B5018AE84F01F0 /* Pods-basketballSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		889E1C34A6A498098BAE42FF7C76DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB11CF0E531A196646C66F51F71B30C /* Pods-basketballSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E8BBAB142C251B2F1292C70E3FD2400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932CCE9E76D1B4719EA634EF4C625D8D /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IGLDropDownMenu;
+				PRODUCT_NAME = IGLDropDownMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCA2325269D51EF5251E43ACC41B6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69CEC899FF2588EDF8BDE1719545B09 /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		907E4EB97B96FAF6F388C289222105AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0490B76CAEB39B0CA14150C02B2D581D /* Pods-basketballSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7CB1715D54F29B1CC165F7A8FF8A9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6FB1627B632621D27AEFD7F217EB2F /* Pods-basketballS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA11A289ABB93DD4FE7A3C5389DEA584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505E4DDAC35FD92F29951E6C94F7B08C /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA95A43E38D2D550D32D7072F0AFE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9794385B1C1E704940201D42F468B458 /* Pods-basketballS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CFED780BF337C6F6C8860E43C5BABBA /* Build configuration list for PBXNativeTarget "Pods-basketballS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA95A43E38D2D550D32D7072F0AFE88 /* Debug */,
+				D7CB1715D54F29B1CC165F7A8FF8A9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6F32E23FEA7CE3330CF2533BFA5BE0 /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A2049FC5E2A80E95054B8B8D00A886 /* Debug */,
+				8E8BBAB142C251B2F1292C70E3FD2400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C15F4700EB26169E79EB6DE6400234 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCA2325269D51EF5251E43ACC41B6A3 /* Debug */,
+				2BA04EC18702E9803C4D3C2160773FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A26CC39A4BD8E6AFADC95F87BC0170 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA11A289ABB93DD4FE7A3C5389DEA584 /* Debug */,
+				20D822522FE5AE89C4AD9F350385A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BE7B8272832FB363BFFBAEC7FEF2F9 /* Build configuration list for PBXNativeTarget "Pods-basketballSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9611BCCA67039789D17C9BA948FD4B /* Debug */,
+				889E1C34A6A498098BAE42FF7C76DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD60739BAD4E2269746443C314E24314 /* Build configuration list for PBXNativeTarget "Pods-basketballSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907E4EB97B96FAF6F388C289222105AD /* Debug */,
+				41FF0A2EF645BE73EDD3DB44B310048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
